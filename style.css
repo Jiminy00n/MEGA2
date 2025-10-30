@@ -1,0 +1,34 @@
+body {
+  background-color: #f3f0f9;
+  color: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Kirang Haerang", cursive;
+}
+a {
+  color: #0104df;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #f9c5ff;
+  text-shadow: 0 0 10px #f94dff, 0 0 20px #f94dff;
+  transform: scale(1.07);
+}
+
+a:active {
+  color: #ee00ff;
+  text-shadow: 0 0 20px #dd00ff, 0 0 30px #f7b1ff;
+  animation: blink 0.1s ease;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
